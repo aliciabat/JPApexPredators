@@ -14,6 +14,7 @@
 		6D12C5D12B6BFEF800B7F1B2 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D12C5D02B6BFEF800B7F1B2 /* jpapexpredators.json */; };
 		6D12C5D32B6C00F100B7F1B2 /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12C5D22B6C00F100B7F1B2 /* ApexPredator.swift */; };
 		6D12C5D52B6C050100B7F1B2 /* Predators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12C5D42B6C050100B7F1B2 /* Predators.swift */; };
+		6D6A15B82B73B2A500804900 /* PredatorsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6A15B72B73B2A500804900 /* PredatorsMap.swift */; };
 		6DA31E822B72C14500C09DCA /* PredatorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA31E812B72C14400C09DCA /* PredatorDetail.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		6D12C5D02B6BFEF800B7F1B2 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
 		6D12C5D22B6C00F100B7F1B2 /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
 		6D12C5D42B6C050100B7F1B2 /* Predators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predators.swift; sourceTree = "<group>"; };
+		6D6A15B72B73B2A500804900 /* PredatorsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorsMap.swift; sourceTree = "<group>"; };
 		6DA31E812B72C14400C09DCA /* PredatorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 				6D12C5D42B6C050100B7F1B2 /* Predators.swift */,
 				6D12C5C42B6BFCE200B7F1B2 /* ContentView.swift */,
 				6DA31E812B72C14400C09DCA /* PredatorDetail.swift */,
+				6D6A15B72B73B2A500804900 /* PredatorsMap.swift */,
 				6D12C5D02B6BFEF800B7F1B2 /* jpapexpredators.json */,
 				6D12C5C62B6BFCE700B7F1B2 /* Assets.xcassets */,
 				6D12C5C82B6BFCE700B7F1B2 /* Preview Content */,
@@ -155,6 +158,7 @@
 				6DA31E822B72C14500C09DCA /* PredatorDetail.swift in Sources */,
 				6D12C5D52B6C050100B7F1B2 /* Predators.swift in Sources */,
 				6D12C5C32B6BFCE200B7F1B2 /* JPApexPredatorsApp.swift in Sources */,
+				6D6A15B82B73B2A500804900 /* PredatorsMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
