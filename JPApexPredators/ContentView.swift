@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     @State var searchText = ""
@@ -26,9 +27,13 @@ struct ContentView: View {
         NavigationStack {
             List(filteredDinos) { predator in
                 NavigationLink {
-                    Image(predator.image)
-                        .resizable()
-                        .scaledToFit()
+                    PredatorDetail(
+                        predator: predator,
+                        position: .camera(MapCamera(
+                            centerCoordinate: predator.location, distance: 30000
+                            )
+                        )
+                    )
                 } label: {
                     HStack {
                         // Dinosaur image
@@ -70,7 +75,7 @@ struct ContentView: View {
                             .symbolEffect(.bounce, value: alphabetical)
                     }
                 }
-                    
+                
                 ToolbarItem(placement: .topBarTrailing) {
                     Menu {
                         Picker("Filter", selection: $currentSelection.animation()) {
